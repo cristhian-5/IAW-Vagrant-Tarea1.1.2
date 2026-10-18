@@ -95,7 +95,7 @@
 
 ##### 1. Comprueba que el archivo es válido y arranca la máquina con el proveedor que tengas instalado: VirtualBox
 - Desde la carpeta del proyecto donde esta el Vagrantfile, primero ponemos el comando vagrant validate para ver que la sintaxis del archivo era correcta y no contenía errores. Despues, se levanta la máquina utilizando el comando vagrant up
-- [imagen]
+- ![comprobacion](img/comprobacion_vagranfile.png)
 
 
 ## Parte C. Completa el Vagrantfile
@@ -112,6 +112,8 @@
 - Vincular un script Bash de aprovisionamiento guardado en el repositorio.
   - config.vm.provision "shell", path: "provision.sh"
 
+![provision](img/provision.png)
+
 Podríamos comprobarlo asi
 [imagem]
 
@@ -120,12 +122,12 @@ Podríamos comprobarlo asi
 
 ##### 1. Crea un script Bash que instale Apache en Debian 12, active el servicio y escriba una página de inicio sencilla. Esa página debe mostrar tu nombre y el hostname de la máquina. 
 
-[imagen]
+![script](img/script.png)
 
 ##### 2. Investiga cómo volver a ejecutar solo el aprovisionamiento después de modificarlo. 
 - Para volver a ejecutarlo usamos el comando vagrant provision
 
 ##### 3. Ejecútalo de nuevo y comprueba que el servidor continúa funcionando. 
 - nos conectamos con vagrant ssh y ejecutamos el siguiente comando
-- [imagen]
-- [imagen]
+- ![apache](img/apache.png)
+- ![web](img/web.png)
