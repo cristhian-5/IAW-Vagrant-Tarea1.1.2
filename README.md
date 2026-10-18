@@ -115,7 +115,8 @@
 ![provision](img/provision.png)
 
 Podríamos comprobarlo asi
-[imagem]
+
+![comprobacion_config](img/comprobacion_config.png)
 
 
 ## Parte D. Aprovisiona Apache 
