@@ -112,4 +112,20 @@
 - Vincular un script Bash de aprovisionamiento guardado en el repositorio.
   - config.vm.provision "shell", path: "provision.sh"
 
-  
+Podríamos comprobarlo asi
+[imagem]
+
+
+## Parte D. Aprovisiona Apache 
+
+##### 1. Crea un script Bash que instale Apache en Debian 12, active el servicio y escriba una página de inicio sencilla. Esa página debe mostrar tu nombre y el hostname de la máquina. 
+
+[imagen]
+
+##### 2. Investiga cómo volver a ejecutar solo el aprovisionamiento después de modificarlo. 
+- Para volver a ejecutarlo usamos el comando vagrant provision
+
+##### 3. Ejecútalo de nuevo y comprueba que el servidor continúa funcionando. 
+- nos conectamos con vagrant ssh y ejecutamos el siguiente comando
+- [imagen]
+- [imagen]
